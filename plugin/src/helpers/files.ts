@@ -17,7 +17,7 @@ import semver from 'semver'
 import type { FunctionList } from './functions'
 
 const DEFAULT_LAMBDA_PLATFORM = 'linux'
-const DEFAULT_LAMBDA_ABI = '83'
+const DEFAULT_LAMBDA_ABI = '93'
 const DEFAULT_LAMBDA_ARCH = 'x64'
 
 const LAMBDA_PLATFORM = `${DEFAULT_LAMBDA_PLATFORM}-${DEFAULT_LAMBDA_ARCH}`
